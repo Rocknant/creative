@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main_banner {
+    background-image: url(../img/01\ 1.png);
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+}
+.main_banner.banner_2 {
+    background-image: url(../img/01\ 2.jpg);
+}
+.main_banner.banner_3 {
+    background-image: url(../img/01\ 3.jpg);
+}
+.main_banner.banner_4 {
+    background-image: url(../img/01\ 4.jpg);
+}
+.container {
+    margin: auto;
+    max-width: 1110px;
+}
+header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.main_banner h1 {
+    
+}
