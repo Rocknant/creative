@@ -11,9 +11,6 @@
     font-display: swap;
 }
 
-
-
-
 *{
     padding: 0;
     margin: 0;
@@ -91,7 +88,7 @@ header a {
     line-height: 55px;
     color: #181818;
     margin-bottom: 20px;
-    font-family: sans-serif;
+    font-family: '20 Kopeek';
 }
 .main_banner p {
     font-family: sans-serif;
