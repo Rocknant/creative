@@ -214,6 +214,87 @@ header a {
     padding: 11px 7px 11px 13px;;
     color: #FFFFFF;
 }
+/*section Guideline*/
+.guideline h2 {
+    font-family: '20 Kopeek book';
+    margin-bottom: 15px;
+}
+.text_guideline p {
+    padding: 11px 11px 18px 14px;
+    font-family: '20 Kopeek';
+}
+.text_guideline p:first-of-type{
+    background: #2B59C3;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: '20 Kopeek book';
+}
+.text_guideline p span {
+    font-size: 26px;
+    line-height: 29px;
+    font-family: '20 Kopeek book';
+}
+.imgrectan69 {
+    max-width: 100%;
+}
+
+
+
+/* sections applications */
+.first_name  {
+    display: inline-block;
+    border: 1px solid #181818;
+    box-sizing: border-box;
+    border-radius: 10px;    
+    padding: 23px 150px 23px 29px; 
+    font-size: 18px;
+    line-height: 25px;
+    color: #868686;
+    font-family: '20 Kopeek';   
+}
+.telephone {
+    display: inline-block;
+    border: 1px solid #181818;
+    box-sizing: border-box;
+    border-radius: 10px;    
+    padding: 23px 150px 23px 29px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #868686;
+    margin-left: 30px;
+    font-family: '20 Kopeek';   
+}
+.button {
+    align-items: center;
+    padding: 23px 47px;
+    background: #2B59C3;
+    border-radius: 40px;
+    border-color: #2B59C3;
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: '20 Kopeek';  
+}
+.checkbox {
+    display: inline-block;
+    margin-top: 21px;
+    font-family: '20 Kopeek';
+    margin-bottom: 100px;
+}
+.checkbox span {
+    color: #2B59C3;
+}
+.apps h2 {
+    margin-top: 71px;
+    font-family: '20 Kopeek book';
+}
+.apps h3 {
+    margin-top: 11px;
+    margin-bottom: 27px;
+    font-family: '20 Kopeek book';
+}
+
 
 
 
