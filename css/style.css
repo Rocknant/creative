@@ -1,5 +1,5 @@
 @font-face {
-    font-family: '20 Kopeek';
+    font-family: '20 Kopeek book';
     src: url('../fonts/20Kopeek-Book.eot');
     src: url('../fonts/20Kopeek-Book.eot?#iefix') format('embedded-opentype'),
         url('../fonts/20Kopeek-Book.woff2') format('woff2'),
@@ -10,7 +10,18 @@
     font-style: normal;
     font-display: swap;
 }
-
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek.eot');
+    src: url('../fonts/20Kopeek.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/20Kopeek.woff2') format('woff2'),
+        url('../fonts/20Kopeek.woff') format('woff'),
+        url('../fonts/20Kopeek.ttf') format('truetype'),
+        url('../fonts/20Kopeek.svg#20Kopeek') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 *{
     padding: 0;
     margin: 0;
@@ -19,6 +30,7 @@ img {
     display: inline-block;
     
 }
+
 .main_banner {
     background-image: url(../img/01\ 1.png);
     background-size: cover;
@@ -88,7 +100,7 @@ header a {
     line-height: 55px;
     color: #181818;
     margin-bottom: 20px;
-    font-family: '20 Kopeek';
+    font-family: '20 Kopeek book';
 }
 .main_banner p {
     font-family: sans-serif;
@@ -96,6 +108,7 @@ header a {
     line-height: 37px;
     margin-bottom: 65px;
     color: #181818;
+    font-family: '20 Kopeek book';
 }
 .main_banner .btn {
     display: inline-block;
@@ -107,7 +120,9 @@ header a {
     line-height: 25px;
     text-decoration: none;
     margin-right: 20px;
+    font-family: '20 Kopeek';
 }
+
 /** sections about**/
 .d_flex_about {
     display: flex;
@@ -118,20 +133,24 @@ header a {
     font-size: 38px;
     font-style: normal;
     font-weight: normal;
+    font-family: '20 Kopeek book';
 }
 .d_flex_about p {
     margin-left: 30px;
     font-size: 18px;
     line-height: 25px; 
     color: #181818;
-    font-weight: bold;
+    font-family: '20 Kopeek';
+    
 }
+
 /*name_and_logo*/
 .name_and_logo .container p{
     margin-top: 150px;
     font-size: 55px;
     line-height: 55px;
     color: #181818;
+    font-family: '20 Kopeek book';
 }
 
 /**elements**/
@@ -143,6 +162,7 @@ header a {
     font-size: 55px;
     line-height: 55px;
     color: #181818;
+    font-family: '20 Kopeek book';
 }
 .elements .title_content {
     margin-top: 65px;
@@ -150,8 +170,7 @@ header a {
     line-height: 140%;
     color: #181818;
     margin-left: 8px;
-
-
+    font-family: '20 Kopeek';
 }
 .elements .title_name_2 {
     margin-top: 40px;
@@ -159,11 +178,14 @@ header a {
     font-size: 55px;
     line-height: 55px;
     color: #181818;
+    font-family: '20 Kopeek book';
 }
 .text_style_15 {
     font-size: 15px;
     line-height: 19px;
+    font-family: '20 Kopeek';
 }
+
 /**corp_list**/
 .d_flex_about_corpst {
     display: flex;
@@ -176,13 +198,14 @@ header a {
     margin-top: 120px;
     margin-left: 435px;
     margin-bottom: 15px;
+    font-family: '20 Kopeek book';
 }
 .d_flex_about_corpst p {
     margin-right: 30px;
     font-size: 18px;
     line-height: 25px;
     color: #181818;
-    font-weight: bold;
+    font-family: '20 Kopeek';
 }
 .d_flex_about_corpst p span {
     display: block;
@@ -191,6 +214,8 @@ header a {
     padding: 11px 7px 11px 13px;;
     color: #FFFFFF;
 }
+
+
 
 
 
