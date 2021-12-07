@@ -717,8 +717,8 @@ footer {
     background-color: red;
     position: relative;
     animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: 3;
+    animation-duration: 8s;
+    animation-iteration-count: 8;
 }
 @keyframes example {
     0%   {background-color:red; left:0px; top:0px;}
@@ -727,3 +727,61 @@ footer {
     75%  {background-color:green; left:0px; top:200px;}
     100% {background-color:red; left:0px; top:0px;}
   }
+
+
+
+  
+.facebook {
+    animation: 8s linear 0s normal none infinite running rot;
+    -webkit-animation: 8s linear 0s normal none infinite running rot;
+    width: 36px;
+  }
+  @keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+.instagram {
+    animation: 8s linear 0s normal none infinite running rot;
+    -webkit-animation: 8s linear 0s normal none infinite running rot;
+    width: 36px;
+  }
+  @keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(121, 134, 177),
+        0 0 82px rgb(120, 150, 206),
+        0 0 92px rgb(77, 88, 182),
+        0 0 102px rgb(55, 77, 201),
+        0 0 151px rgb(38, 101, 196);
+}
