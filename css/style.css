@@ -589,3 +589,104 @@ header a {
     font-family: '20 Kopeek book';
     box-sizing: inherit;
 }
+/* contacts */
+
+.contacts .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+.leftform {
+    width: 50%;
+}
+.rightcolumn {
+    width: 50%;
+}
+.leftform h2 {
+    margin-bottom: 30px;
+}
+.leftform .telephone {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 0;
+}
+.leftform .button {
+    margin-left: 0px;
+}
+.rightcolumn h2 {
+    padding-top: 30px;
+    font-family: '20 Kopeek book';
+}
+.rightcolumn :last-of-type {
+    margin-top: 15px;
+    font-family: '20 Kopeek book';
+}
+.rightcolumn :first-of-type {
+    margin-bottom: 15px;
+    font-family: '20 Kopeek book';
+}
+/*mass_media*/
+
+.flexlinks {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font-family: '20 Kopeek';
+    height: 100%;
+}
+.link1 {
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #2B59C3;
+    padding-top: 6px;
+    padding-left: 13px;
+    align-self: flex-start;
+}
+.link2 {
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #2B59C3;
+    padding-top: 6px;
+    padding-left: 13px;
+    align-self: flex-start;
+    margin-left: 30px;
+}
+.link3 {
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #2B59C3;
+    padding-top: 6px;
+    padding-left: 13px;
+    align-self: flex-start;
+    margin-left: 30px;
+}
+.link4 {
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #2B59C3;
+    padding-top: 6px;
+    padding-left: 13px;
+    align-self: flex-start;
+    margin-left: 30px;
+}
+.flexlinks p {
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.flexlinks a {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer {
+    font-family: '20 Kopeek';
+    margin-top: 38px;
+}
+
