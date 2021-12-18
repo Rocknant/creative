@@ -101,14 +101,14 @@ header li {
 header a {
     display: inline-block;
 }
-.main_banner h1 {
+.position h1 {
     font-size: 55px;
     line-height: 55px;
     color: #181818;
     margin-bottom: 20px;
     font-family: '20 Kopeek book';
 }
-.main_banner p {
+.position p {
     font-family: sans-serif;
     font-size: 34px;
     line-height: 37px;
@@ -116,7 +116,7 @@ header a {
     color: #181818;
     font-family: '20 Kopeek book';
 }
-.main_banner .btn {
+.position .btn {
     display: inline-block;
     padding: 23px 47px;
     background: #FFFFFF;
@@ -128,7 +128,12 @@ header a {
     margin-right: 20px;
     font-family: '20 Kopeek';
 }
-
+.position {
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    top: 344px;
+}
 /** sections about**/
 
 .d_flex_about {
