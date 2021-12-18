@@ -9,11 +9,16 @@
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-queries.css">
-    
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+
 </head>
 <body>
 
-    <header>
+<header>
         <div class="container">
                 <a href="#" class="logo">
                     <img src="img/logo.svg" alt="logo">
@@ -44,7 +49,24 @@
             <h1 class="neonText">Вам нужен фирменный <br> стиль или ребрендинг?</h1>
             <p class="neonText">Разработаем в срок от 10-ти дней</p>
             <a href="#" class="btn" >Портфолио</a>
-            <a href="#" class="btn" >Оставить заявку</a>
+            <a href="#" class="btn" id="opener" >Оставить заявку</a>
+            <div class="overlay"></div>
+            <div id="dialog" title="">
+                <h1>Оставить заявку</h1>
+                <form class="pop-up_window" name="connection" action="" method="post">
+                    <label>
+                        <input class="first_name" type="text" name="first_name" placeholder="Ваше Имя">
+                    </label>
+                    <label>
+                        <input class="telephone" type="tel" name="telephone" placeholder="+7 (999) 999-99-99">
+                    </label>
+                    <label class="i_agree">
+                        <input  class="checkbox" type="checkbox" name="i_agree">
+                        Я принимаю условия передачи персональных данных
+                    </label>
+                    <button class="button" type="reset">Оставить заявку</button>
+                </form>
+            </div>
         </div>
     </div>
     <div class="owl-carousel">
@@ -236,7 +258,7 @@
             </h3>
         </div>
         <div class="container">
-            <form name="search" action="" method="post">
+            <form class name="search" action="" method="post">
                 <input class="first_name" type="text" id="first_name" name="first_name" placeholder="Ваше Имя" >
                 <input class="telephone" type="tel" id="telephone" name="tel" placeholder="+7 (999) 999-99-99 ">
                 <button class="button" type="submit"> Оставить заявку <i class="fas fa-file-signature"></i> </button>
@@ -500,14 +522,9 @@
 <div class="CSS_Animation_test" ></div>
 
 
-
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 <script src="https://kit.fontawesome.com/64278b4d38.js" crossorigin="anonymous"></script>
-<script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
-  <script src="js/owl.carousel.js"></script>
-  <script src="js/scripts.js"></script>
 
 </body>
 </html>

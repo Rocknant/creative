@@ -807,3 +807,104 @@ footer {
     font-size: 50px;
     font-family: "Font awesome 5 free";
 }
+
+
+/**Dialog_window**/
+
+.ui-dialog{
+    width: 100% !important;
+    width: 648px !important;
+    height: 495px !important;
+}
+.ui-dialog .ui-widget-header{
+    background-color: inherit;
+    border: none;
+}
+.overlay {
+    position:fixed;
+    display:none;
+    background-color: #181818;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+button .ui-button-icon{
+    position: absolute;
+    right: -30px;
+    background: none;
+    border: none;
+}
+
+#dialog h1{
+    font-size: 38px;
+    line-height: 42px;
+    color: #181818;
+    font-family: '20 Kopeek_book';
+    margin-left: 54px !important;
+}
+#dialog .telephone {
+    width: 100%;
+    max-width: 540px;
+    margin-bottom: 10px !important;
+    margin-left: 0;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    line-height: 25px;
+}
+#dialog .first_name {
+    width: 100%;
+    max-width: 540px;
+    margin-bottom: 10px !important;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#dialog .i_agree {
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 48px;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    line-height: 25px;
+}
+#dialog .button {
+    margin-left: 0;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    line-height: 25px;
+}
+#dialog .pop-up_window {
+    margin: 60px 54px 59px 54px;
+}
+
+.ui-widget .ui-widget {
+    position: absolute !important;
+    right: -30px !important;
+    top: -25px !important;
+    background: none !important;
+    border: none !important;
+
+}
+.ui-button .ui-icon:before, .ui-button .ui-icon:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #FFFFFF;
+    height: 3px;
+    left: 0;
+}
+.ui-button .ui-icon:before{
+    top: 100%;
+    margin-top: -10px;
+    transform: rotate(45deg);
+}
+.ui-button .ui-icon:after{
+    bottom: 100%;
+    margin-bottom: -9px;
+    transform: rotate(-45deg);
+}
