@@ -30,7 +30,6 @@ img {
     display: inline-block;
     
 }
-
 .main_banner {
     background-image: url(../img/01\ 1.png);
     background-size: cover;
@@ -51,12 +50,19 @@ img {
     margin: auto;
     max-width: 1110px;
 }
+.neonText .btn {
+    position: absolute;
+    margin: auto;
+    max-width: 1110px;
+    z-index: 10;
+}
 header {
     position: absolute;
     width: 100%;
     left: 0;
     top: 0;
     padding-top: 31px;
+    z-index: 2;
 }
 header .container {
     display: flex;
@@ -784,4 +790,15 @@ footer {
         0 0 92px rgb(77, 88, 182),
         0 0 102px rgb(55, 77, 201),
         0 0 151px rgb(38, 101, 196);
+}
+
+.owl-carusel .owl-nav .owl-prev {
+
+}
+
+.owl-carusel .owl-nav .owl-prev:before {
+    content: "/f053";
+    color: black;
+    font-size: 50px;
+    font-family: "Font awesome 5 free";
 }
