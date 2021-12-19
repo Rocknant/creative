@@ -1,13 +1,22 @@
 @media only screen and (max-width: 1024px) {
-
+    .imgrectan29 {display:none;}
 }
 @media only screen and (max-width: 992px) {
-
+    .imgrectan29 {display:none;}
 }
 @media only screen and (max-width: 767px) {
     .main_banner {
         background-image: url(../img/Rectangle\ 52.jpg);
         background-size: cover;
+    }
+    .main_banner.banner_2 {
+        display: none;
+    }
+    .main_banner.banner_3 {
+        display: none;
+    }
+    .main_banner.banner_4 {
+        display: none;
     }
     .container {
         margin: auto;
@@ -27,11 +36,15 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .title_name_2 {
+    .elements .container .title_name_2 {
         width: 15%;
     }
-    .title_content {
+    .elements .container .title_content {
         width: 15%;
+    }
+    .name_and_logo .container p {
+        font-size: 34px;
+        margin-top: 30px;
     }
     .d_flex_about_corpst {
         flex-wrap: wrap-reverse;
@@ -39,6 +52,106 @@
     .corporate_style .container h2 {
         margin-left: 0px;
     }
+    .site_examples img {
+        width: 100%;
+    }
+    .imgrectan29 {display:block;}
+    .imgrectan69 {display:none;}
+    .text_guideline p {
+        margin-left: 0px;
+        padding-left: 5px;
+    }
+    .apps {
+        width: 100%;
+    }
+    .apps .telephone {
+        margin-left: 0px;
+    }
+    .apps .button {
+        display: block;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .empty_connor {
+        display: none;
+    }
+
+    .item1 {
+        width: 100%;
+    }
+    .item1head {
+        width: 1%;
+    }
+    .item2head {
+        width: 27%;
+        margin: 0;
+        padding: 0;
+    }
+    .item3head {
+         width: 28%;
+        margin: 0;
+        padding: 0;
+    }
+    .item4head {
+        width: 27%;
+        margin: 0;
+        padding: 0;
+        margin-left: 20px;
+    }
+    .item3head .headtextblue {
+        font-size: 34px;
+    }
+    .item4head .headtext {
+        font-size: 34px;
+    }
+    .item2head .headtext {
+        font-size: 34px;
+    }
+    .Quality_assurance .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 0;
+    }
+    .Quality_assurance h1 {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .Quality_assurance {
+        padding-bottom: 10px;
+    }
+    .title_content {
+        width: 27%;
+    }
+    .text_style_15 {
+         width: 30%;
+    }
+    .title_name {
+        margin: 0;
+        padding: 0;
+    }
+    .title_name_2 {
+        margin: 0;
+        padding: 0;
+    }
+    .Quality_assurance .title_name_2 {
+        padding-left: 0px;
+    }
+    .contacts .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .checkbox {
+        margin-bottom: 10px;
+    }
+    .flexlinks {
+        display: none;
+    }
+    .CSS_Animation_test {
+        display: none;
+    }
+
 
 }
 @media only screen and (max-width: 420px) {
