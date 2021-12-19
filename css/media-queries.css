@@ -1,8 +1,15 @@
+.imgrectan29 {
+    display:none;
+}
 @media only screen and (max-width: 1024px) {
-    .imgrectan29 {display:none;}
+    .imgrectan29 {
+        display:none;
+    }
 }
 @media only screen and (max-width: 992px) {
-    .imgrectan29 {display:none;}
+    .imgrectan29 {
+        display:none;
+    }
 }
 @media only screen and (max-width: 767px) {
     .main_banner {
